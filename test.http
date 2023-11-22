@@ -1,0 +1,23 @@
+GET http://localhost:3335/tasks
+
+###
+
+POST http://localhost:3335/tasks
+content_type: application/json
+
+{
+  "title": "Trablhar",
+  "description": "lorem ipsum dolor sit amet, consectetur"
+}
+
+###
+DELETE http://localhost:3335/tasks/d44ffbeb-5f5b-483a-b377-3be97a1e88b1
+
+###
+PUT http://localhost:3335/tasks/c1d2cba2-6f91-4501-8f10-183b33da344e
+content_type: application/json
+
+{
+  "title": "Fazer compras",
+  "description": "lorem ipsum dolor sit amet, consectetur"
+}
